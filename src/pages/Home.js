@@ -1,5 +1,5 @@
 import "./Home.css";
-import profileImage from "./image.jpeg";
+
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -14,7 +14,8 @@ function Home() {
 
       <div className="hero-content">
         <div className="hero-image">
-          <img src={profileImage} alt="Profile" />
+        <img src="/image.jpeg" alt="Profile" />
+
         </div>
 
         <div className="hero-text">
